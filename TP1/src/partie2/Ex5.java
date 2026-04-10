@@ -18,7 +18,7 @@ public class Ex5 {
 	        System.out.println("Les éléments du tableau :");
 
 	        for (int i = 0; i < n; i++) {
-	            System.out.println(tab[i]);
+	            System.out.print(tab[i]);
 	        }
 	        sc.close();
 	}
