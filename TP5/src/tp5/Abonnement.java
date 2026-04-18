@@ -1,9 +1,9 @@
 package tp5;
 
 public abstract class  Abonnement {
-    protected String nom;
-    protected double prixBase;
-    protected int nbProfils;
+    private String nom;
+    private double prixBase;
+    private int nbProfils;
 
     public Abonnement(String nom, double prixBase, int nbProfils) {
         this.nom = nom;
